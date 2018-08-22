@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  color: #555;
+  font-family: "Arial", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-size: 16px;
+}
+
+.row {
+  margin: 20px auto;
+  text-align: center;
+}
+/*entry page*/
+.header-with-logo {
+  height: 10%;
+  width: 80%;
+  background-color: white;
+  margin: 0px auto;
+  margin-bottom: 50px;
+  box-shadow: 0 2px 2px rgb(121, 120, 120);
+}
+.small-img {
+  height: 100px;
+  margin: 20px;
+}
+
+.span-1-of-5 {
+  width: 18%;
+}
+.span-1-of-4 {
+  width: 19%;
+}
+.col {
+  display: block;
+  float: left;
+  margin: 2% 0 1% 0;
+}
+
+.column-of-4 {
+  margin-left: 130px;
+}
+.entry-h1 {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+h1 {
+  font-size: 300%;
+}
+
+.segment {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.column-of-5 {
+  margin: 10px 0 0 70px;
+}
+
+.column-of-5 h5 {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.column-of-4 h5 {
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.icon-container {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 0px;
+  margin-right: 15px;
+  border: 2px solid orange;
+  border-radius: 10px;
+}
+
+/*button*/
+.entry-button {
+  margin-top: 30%;
+  margin-left: 43%;
+  margin-right: 49%;
+}
+
+/*inputform*/
+
+input[type="text"] {
+  padding: 12px 20px;
+  margin: 5% 2%;
+  border-radius: 10px;
+}
+
+.address {
+  width: 30%;
+}
+
+#map-element {
+  margin: 0 auto;
+}
